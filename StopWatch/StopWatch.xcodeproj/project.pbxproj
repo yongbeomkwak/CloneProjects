@@ -13,9 +13,9 @@
 		B0ED4C312B6FB52A002BBB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ED4C2F2B6FB52A002BBB33 /* Main.storyboard */; };
 		B0ED4C332B6FB52B002BBB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0ED4C322B6FB52B002BBB33 /* Assets.xcassets */; };
 		B0ED4C362B6FB52B002BBB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ED4C342B6FB52B002BBB33 /* LaunchScreen.storyboard */; };
-		B0ED4C402B6FB58C002BBB33 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0ED4C3F2B6FB58C002BBB33 /* .gitignore */; };
 		B0ED4C422B6FB611002BBB33 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED4C412B6FB611002BBB33 /* Utils.swift */; };
 		B0ED4C452B6FB69B002BBB33 /* UISugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED4C442B6FB69B002BBB33 /* UISugar.swift */; };
+		B0ED4C472B707B05002BBB33 /* LapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ED4C462B707B05002BBB33 /* LapTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		B0ED4C322B6FB52B002BBB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0ED4C352B6FB52B002BBB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0ED4C372B6FB52B002BBB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0ED4C3F2B6FB58C002BBB33 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B0ED4C412B6FB611002BBB33 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		B0ED4C442B6FB69B002BBB33 /* UISugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISugar.swift; sourceTree = "<group>"; };
+		B0ED4C462B707B05002BBB33 /* LapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,6 @@
 		B0ED4C1D2B6FB52A002BBB33 = {
 			isa = PBXGroup;
 			children = (
-				B0ED4C3F2B6FB58C002BBB33 /* .gitignore */,
 				B0ED4C282B6FB52A002BBB33 /* StopWatch */,
 				B0ED4C272B6FB52A002BBB33 /* Products */,
 			);
@@ -71,6 +70,7 @@
 				B0ED4C322B6FB52B002BBB33 /* Assets.xcassets */,
 				B0ED4C342B6FB52B002BBB33 /* LaunchScreen.storyboard */,
 				B0ED4C372B6FB52B002BBB33 /* Info.plist */,
+				B0ED4C462B707B05002BBB33 /* LapTableViewCell.swift */,
 			);
 			path = StopWatch;
 			sourceTree = "<group>";
@@ -142,7 +142,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0ED4C402B6FB58C002BBB33 /* .gitignore in Resources */,
 				B0ED4C362B6FB52B002BBB33 /* LaunchScreen.storyboard in Resources */,
 				B0ED4C332B6FB52B002BBB33 /* Assets.xcassets in Resources */,
 				B0ED4C312B6FB52A002BBB33 /* Main.storyboard in Resources */,
@@ -157,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0ED4C422B6FB611002BBB33 /* Utils.swift in Sources */,
+				B0ED4C472B707B05002BBB33 /* LapTableViewCell.swift in Sources */,
 				B0ED4C2E2B6FB52A002BBB33 /* ViewController.swift in Sources */,
 				B0ED4C2A2B6FB52A002BBB33 /* AppDelegate.swift in Sources */,
 				B0ED4C2C2B6FB52A002BBB33 /* SceneDelegate.swift in Sources */,
