@@ -84,6 +84,7 @@ class ViewController: UIViewController {
         collectionView.setHorizon(constant: .zero)
         collectionView.setVertical(constant: 80)
         
+        
     }
 
 
@@ -117,8 +118,11 @@ extension ViewController: UIScrollViewDelegate {
     let layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
     let cellWidthWithSpace = layout.itemSize.width + layout.minimumLineSpacing
     
+    
     var offset = targetContentOffset.pointee
     
+    print("\(targetContentOffset) \(targetContentOffset.pointee)")
+      
     let index = (offset.x + scrollView.contentInset.left) / cellWidthWithSpace
     let roundedIndex = round(index)
     
